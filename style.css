@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+:root{
+    --main-font: 'Gloock', serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h2{
+    font-family: var(--main-font);
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-family: var(--main-font);
+    font-size: 30px;
+    text-align: left;
+}
+
+/*add transition properties in video*/
+.header{
+    padding-top: 200px;
+    font-size: 150px;
+    transition: .5s ease;
+}
+
+/*Add header-scrolled class in video*/
+.header-scrolled{
+    font-size: 100px;
+    transition: .5s ease;
+}
+
+.img-title{
+    font-size: 30px;
+    display: none;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.column{
+    width: 33%;
+    margin: 5px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.faq{
+    width: 80%;
+    padding: 50px 100px 100px;
+    border: 2px solid black;
+    margin-bottom: 250px;
+}
+
+#panelOne,
+#panelTwo,
+#panelThree{
+    text-align: left;
+    padding: 5px 20px;
+    border-bottom: 1px solid black;
+}
+
+#belAir,
+#carrera, 
+#mgb{
+    display: none;
+    text-align: left;
+    padding: 40px 20px;
+}
