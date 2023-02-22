@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+    function shine() {
+        $(".shine").animate({ backgroundPositionX: '1600px' }, 3000)
+        .animate({backgroundPositionX: '-800px'}, 3000);
+    };
+
+    setInterval(shine, 0);
+
     $(document).on("scroll", function () {
         if ($(document).scrollTop() > 50) {
             $("h1").addClass("header-scrolled");
